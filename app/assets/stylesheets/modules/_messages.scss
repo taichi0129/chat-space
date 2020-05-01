@@ -47,17 +47,18 @@ $section-color: #ffffff;
     .group-lists {
       color: $section-color;
       font-weight: bold;
+      .group__name {
+        text-decoration: none;
+      }
       &__name {
         font-size: 15px;
         padding-bottom: 5px;
         color: $white;
-        text-decoration: none;
       }
       &__message {
         font-size: 11px;
         padding-bottom: 40px;
         color: $white;
-        text-decoration: none;
       }
     }
   }
